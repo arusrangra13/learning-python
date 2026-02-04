@@ -1,0 +1,5 @@
+
+veggies = ["potato","beimjal","ladyfinger","carrot","cucumber"]
+
+for val in veggies:
+    print(val)
