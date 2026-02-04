@@ -1,5 +1,11 @@
-
+#list
 veggies = ["potato","beimjal","ladyfinger","carrot","cucumber"]
 
 for val in veggies:
+    print(val)
+
+#touple
+nums = (1,2,3,4,5,6,7)
+
+for val in nums:
     print(val)
