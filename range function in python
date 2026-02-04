@@ -2,3 +2,7 @@ seq = range(6)
 
 for i in seq:
     print(i)
+
+# we can also write this
+for i in range(107):
+    print(i)
