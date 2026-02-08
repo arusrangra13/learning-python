@@ -16,3 +16,12 @@ print_Nameste()
 print_Nameste()
 print_Nameste()
 print_Nameste()
+
+#marks avg
+def marks_avg(a,b,c,d,e,f):
+    sum=a+b+c+d+e+f
+    avg=sum/6
+    print(avg)
+    return avg
+
+marks_avg(39,31,46,40,47,44)
