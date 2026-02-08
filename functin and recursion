@@ -5,3 +5,14 @@ def cal_sum(a,b): #parameters
 
 sum = cal_sum(1,6) #function call; arguments
 print(sum)
+
+
+#example
+def print_Nameste():
+    print("Nameste")
+
+print_Nameste()
+print_Nameste()
+print_Nameste()
+print_Nameste()
+print_Nameste()
