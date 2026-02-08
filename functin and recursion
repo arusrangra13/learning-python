@@ -1,7 +1,7 @@
 
 #function defination
-def cal_sum(a,b):
+def cal_sum(a,b): #parameters
     return a+b
 
-sum = cal_sum(1,6)
+sum = cal_sum(1,6) #function call; arguments
 print(sum)
