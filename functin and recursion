@@ -34,3 +34,18 @@ def print_lens(list):
     
 print_lens(cities)
 print_lens(heros)
+
+
+# waf to print the elements of list in a single line.(list is a parameter)
+
+cities= ["Delhi","Mumbai","Chennai","Kolkata","Bangalore"]
+heros = ["Superman","Batman","Spiderman","Ironman","Thor"]
+
+
+def print_lens(list):
+    print(len(list))
+
+def print_list(list):
+    for item in list:
+        print(item,end=" ")
+
