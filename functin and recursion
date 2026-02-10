@@ -190,3 +190,12 @@ def calc_fact(n):
 Print inside loop → step-by-step
 Print outside loop → final result
 
+
+
+#waf to convert usd to inr.
+def converter(usd_val):
+    inr_val=usd_val*90
+    print(usd_val,"USD=",inr_val,"INR")
+
+converter(66)
+
