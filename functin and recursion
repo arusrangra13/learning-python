@@ -224,3 +224,15 @@ def calc_sum(n):
 
 sum=calc_sum(5)
 print(sum)
+
+# write a recursive function to print all eleents in a list.
+def print_list(list, idx=0):
+    if(idx==len(list)):
+        return
+    print(list[idx])
+    print_list(list, idx+1)
+
+Names =["Arus","rohan","sohan","Rahul"]
+
+print_list(Names)
+
