@@ -13,3 +13,7 @@ f.close()
 with open("helo.txt","r") as f:
     data=f.read()
     print(data)
+
+#f.write a file
+with open("helo.txt","w") as f:
+    f.write("new name")
