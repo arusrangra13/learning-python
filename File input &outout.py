@@ -8,3 +8,8 @@ print(type(data))
 f = open("helo.txt","a")
 f.write("then we do dbms")
 f.close()
+
+#with syntax
+with open("helo.txt","r") as f:
+    data=f.read()
+    print(data)
