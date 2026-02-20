@@ -22,3 +22,12 @@ with open("helo.txt","w") as f:
 with open("hello.txt","w")as f:
     f.write("hi every one \n how are you\nI am fine\n What are you doing")
     
+#waf that replace occrance of "are" with "is" \n above file.
+with open("hello.txt","r")as f:
+    data = f.read()
+
+new_data= data.replace("are","is")
+print(new_data)
+    
+with open("hello.txt","w")as f:
+    f.write(new_data)
