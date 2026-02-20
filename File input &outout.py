@@ -31,3 +31,12 @@ print(new_data)
     
 with open("hello.txt","w")as f:
     f.write(new_data)
+
+#Search the word "everyone" exist in the file or not.
+word="everyone"
+with open("hello.txt","r") as f:
+    data = f.read()
+    if(data.find(word) !=-1):
+        print("found")
+    else:
+        print("not found")
