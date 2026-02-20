@@ -17,3 +17,8 @@ with open("helo.txt","r") as f:
 #f.write a file
 with open("helo.txt","w") as f:
     f.write("new name")
+
+#Creatina file and add data init
+with open("hello.txt","w")as f:
+    f.write("hi every one \n how are you\nI am fine\n What are you doing")
+    
