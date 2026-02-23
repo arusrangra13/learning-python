@@ -40,3 +40,26 @@ with open("hello.txt","r") as f:
         print("found")
     else:
         print("not found")
+
+
+# finding word in file i/o
+def check_for_line():
+    word = "What"
+    line_no = 1
+
+    with open("hello.txt", "r") as f:
+        while True:
+            data = f.readline()
+
+            if not data:      # end of file
+                print(-1)
+                return
+
+            if word in data:
+                print(line_no)
+                return
+
+            line_no += 1
+
+
+check_for_line()
