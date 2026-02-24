@@ -12,3 +12,6 @@ class Student:
  
 s1 = Student("karan")
 print(s1.name)
+
+s2 = Student("Arus")
+print(s2.name)
