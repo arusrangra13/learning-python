@@ -1,5 +1,5 @@
 # Updating car speed
-class Car:   # class names should start with Capital letter
+class Car:   
     def __init__(self, brand, speed):
         self.brand = brand
         self.speed = speed
