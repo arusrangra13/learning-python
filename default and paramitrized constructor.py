@@ -1,6 +1,6 @@
 class Student:
     #default constructors
-    def__init__(self):
+    def __init__(self):
         pass
     #parameterized constructores
     def __init__(self,name,marks,rollno):
