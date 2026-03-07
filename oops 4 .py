@@ -1,5 +1,5 @@
 class car:
-    def start(self):
+    def __init__(self):
         self.acc=False
         self.brk=False
         self.clutch=False
