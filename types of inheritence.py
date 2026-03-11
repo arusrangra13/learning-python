@@ -42,3 +42,20 @@ class Swift(MarutiCar):
     
 car1 = Swift("petrol")
 car1.start()
+
+#Multiple inheritence
+
+class A:
+    varA = "welcome to class A"
+
+class B:
+    varB ="welecome to class B"
+
+class C(A,B):
+    varC = "welecome to class C"
+
+c1 = C()
+
+print(c1.varC)
+print(c1.varB)
+print(c1.varA)
