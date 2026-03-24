@@ -1,26 +1,24 @@
-# Python Project
+🐍 Python Learning Journey
+🚀 About This Repository
 
-## 📌 Description
-This is a Python-based project developed to demonstrate core programming concepts,
-data processing, and basic problem-solving using Python.
+This repository documents my journey of learning Python programming from basics to advanced concepts.
 
----
+I am building strong fundamentals, solving problems, and creating real-world projects to improve my development skills.
 
-## 🚀 Features
-- Easy to understand Python code
-- Beginner-friendly project structure
-- Modular and reusable functions
-- Supports future enhancements
-
----
-
-## 🛠️ Technologies Used
-- Python 3.x
-- NumPy
-- Pandas
-- Matplotlib (optional)
-- Scikit-learn (optional)
-
----
-
-## 📂 Project Structure
+📚 Topics Covered
+🟢 Basics
+Variables & Data Types
+Input / Output
+Operators
+Conditional Statements (if-else)
+Loops (for, while)
+🔵 Intermediate
+Functions
+Lists, Tuples, Sets, Dictionaries
+String Handling
+File Handling
+🔴 Advanced (Coming Soon)
+Object-Oriented Programming (OOP)
+Modules & Packages
+Exception Handling
+Libraries (NumPy, Pandas)
